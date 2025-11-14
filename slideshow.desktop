@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=IMV Slideshow
+Exec=bash -c "unclutter & find ~/Pictures/photos -type f \\( -iname '*.jpg' -o -iname '*.jpeg' \\) | shuf | xargs /usr/>
+X-GNOME-Autostart-enabled=true
+Terminal=false
