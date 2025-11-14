@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=IMV Slideshow
-Exec=bash -c "unclutter & find ~/Pictures/photos -type f \\( -iname '*.jpg' -o -iname '*.jpeg' \\) | shuf | xargs /usr/>
+Exec=bash -c "unclutter & find ~/Pictures/photos -type f \\( -iname '*.jpg' -o -iname '*.jpeg' \\) | shuf | xargs /usr/libexec/imv/imv -f -t 20 -s crop"
 X-GNOME-Autostart-enabled=true
 Terminal=false
