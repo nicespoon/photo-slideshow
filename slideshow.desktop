@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=IMV Slideshow
+Name=Photo Slideshow
 Exec=bash -c "amixer set Master 50% && feh -r --fullscreen --zoom fill --slideshow-delay 20 --randomize --hide-pointer ~/Pictures/photos"
 X-GNOME-Autostart-enabled=true
 Terminal=false
